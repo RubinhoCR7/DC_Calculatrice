@@ -1,0 +1,41 @@
+#calculator {
+  width: 400px;
+  height: 500px;
+  background-color: violet;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.display {
+  width: 100%;
+  height: 100px;
+  font-size: 48px;
+  text-align: right;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #222;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button {
+  width: 25%;
+  height: 100px;
+  font-size: 36px;
+  border: none;
+  background-color: #444;
+  color: white;
+}
+
+.zero {
+  width: 50%;
+}
+
+.operator {
+  background-color: #666;
+}
